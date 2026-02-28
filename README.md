@@ -3,7 +3,7 @@
 This project demonstrates the use of **SCSS**, **Vite**, and **Source Maps** to show how modern CSS is transformed for production.
 
 
-## 🚀 Setup & Run Instructions
+## Setup & Run Instructions
 
 1. **Clone the repository and enter the project folder:**
    ```bash
