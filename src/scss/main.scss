@@ -1,0 +1,4528 @@
+@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}
+
+
+/*@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+}@use 'variables';
+@use 'mixins';
+
+body {
+  font-family: variables.$font-stack;
+  background: linear-gradient(135deg, variables.$primary-color, variables.$secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+
+  h1 {
+    color: variables.$primary-color;
+  }
+
+  button {
+    @include mixins.button-style(variables.$primary-color);
+  }
+} */
